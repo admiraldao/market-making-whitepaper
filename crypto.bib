@@ -1,0 +1,48 @@
+@article{Othman13:OPRS,
+author = {Othman, Abraham and Pennock, David M. and Reeves, Daniel M. and Sandholm, Tuomas},
+title = {A Practical Liquidity-Sensitive Automated Market Maker},
+year = {2013},
+issue_date = {September 2013},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {1},
+number = {3},
+issn = {2167-8375},
+url = {https://doi.org/10.1145/2509413.2509414},
+doi = {10.1145/2509413.2509414},
+abstract = {Automated market makers are algorithmic agents that enable participation and information elicitation in electronic markets. They have been widely and successfully applied in artificial-money settings, like some Internet prediction markets. Automated market makers from the literature suffer from two problems that contribute to their impracticality and impair their use beyond artificial-money settings: first, they are unable to adapt to liquidity, so that trades cause prices to move the same amount in both heavily and lightly traded markets, and second, in typical circumstances, they run at a deficit. In this article, we construct a market maker that is both sensitive to liquidity and can run at a profit. Our market maker has bounded loss for any initial level of liquidity and, as the initial level of liquidity approaches zero, worst-case loss approaches zero. For any level of initial liquidity we can establish a boundary in market state space such that, if the market terminates within that boundary, the market maker books a profit regardless of the realized outcome.},
+journal = {ACM Trans. Econ. Comput.},
+month = sep,
+articleno = {14},
+numpages = {25},
+keywords = {pricing rules, liquidity, prediction markets, automated market making, Market design, market scoring rules}
+}
+
+@inproceedings{Othman12:Profit,
+author = {Othman, Abraham and Sandholm, Tuomas},
+title = {Profit-Charging Market Makers with Bounded Loss, Vanishing Bid/Ask Spreads, and Unlimited Market Depth},
+year = {2012},
+isbn = {9781450314152},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2229012.2229074},
+doi = {10.1145/2229012.2229074},
+abstract = {Four desiderata for automated market makers have appeared in the literature: (1) bounded loss, (2) the ability to make a profit, (3) a vanishing bid/ask spread, and (4) unlimited market depth. Intriguingly, market makers that satisfy any three of these desiderata have appeared in the literature. However, it was an open question as to whether a market maker can simultaneously satisfy all four because the qualities are oppositional. In this paper, we design market makers that satisfy all four. We achieve this by introducing a new, practical framework. It extends constant-utility cost functions with two separate functions that are added to the prices quoted to the trader. The liquidity function uses its proceeds to increase the amount of liquidity provided by the market maker. The profit function represents a "lockbox" of savings that is separate from the rest of the market maker's decision-making process.},
+booktitle = {Proceedings of the 13th ACM Conference on Electronic Commerce},
+pages = {790--807},
+numpages = {18},
+keywords = {automated market makers, wagering, liquidity, algorithmic finance, market microstructure, prediction markets, markets, financial markets, market making},
+location = {Valencia, Spain},
+series = {EC '12}
+}
+
+@misc{angeris2020improved,
+      title={Improved Price Oracles: Constant Function Market Makers}, 
+      author={Guillermo Angeris and Tarun Chitra},
+      year={2020},
+      eprint={2003.10001},
+      archivePrefix={arXiv},
+      primaryClass={q-fin.TR}
+}
+
+@misc{buterin_2017, title={On Path Independence}, url={https://vitalik.ca/general/2017/06/22/marketmakers.html}, author={Buterin, Vitalik}, year={2017}, month={Jun}}
